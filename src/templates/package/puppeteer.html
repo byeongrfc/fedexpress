@@ -1,9 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Document</title>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
       * {
         padding: 0;
         margin: 0;
@@ -20,7 +21,7 @@
         white-space: wrap;
       }
       body {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
       }
       .container {
         width: 736px;
@@ -61302,11 +61303,11 @@
                     if (v > l) {
                       h = a - (h - n);
                       u = a - (u - n);
-                      ((y = h), (h = u), (u = y));
-                      ((y = l), (l = v), (v = y));
+                      (y = h), (h = u), (u = y);
+                      (y = l), (l = v), (v = y);
                       f = -f;
                       c = -c;
-                      ((y = s), (s = o), (o = y));
+                      (y = s), (s = o), (o = y);
                     }
                     d = v | 0;
                     x = l | 0;
@@ -61362,7 +61363,7 @@
             }
           }
           function _r(r, t, e, i, n, a) {
-            ((i |= 0), (n |= 0), (a |= 0));
+            (i |= 0), (n |= 0), (a |= 0);
             var s = null,
               f;
             var o = a,
@@ -61511,7 +61512,7 @@
                 h[u].invert = 0;
                 if (v ? t[x + p].y > t[x + g].y : t[x + p].y < t[x + g].y) {
                   h[u].invert = 1;
-                  ((b = p), (w = g));
+                  (b = p), (w = g);
                 }
                 h[u].x0 = t[x + b].x * i + a;
                 h[u].y0 = (t[x + b].y * l + s) * d;
@@ -61588,16 +61589,16 @@
                   }
                   ++a;
                   s = i.length;
-                  ((f = r[v].x), (o = r[v].y));
+                  (f = r[v].x), (o = r[v].y);
                   i.push({ x: f, y: o });
                   break;
                 case W:
-                  ((f = r[v].x), (o = r[v].y));
+                  (f = r[v].x), (o = r[v].y);
                   i.push({ x: f, y: o });
                   break;
                 case H:
                   c(i, f, o, r[v].cx, r[v].cy, r[v].x, r[v].y, n, 0);
-                  ((f = r[v].x), (o = r[v].y));
+                  (f = r[v].x), (o = r[v].y);
                   break;
                 case y:
                   X(
@@ -61613,7 +61614,7 @@
                     n,
                     0
                   );
-                  ((f = r[v].x), (o = r[v].y));
+                  (f = r[v].x), (o = r[v].y);
                   break;
               }
             }
@@ -61621,7 +61622,7 @@
             return i;
           }
           function Cr(r, t, e, i, n, a, s, f, o, v) {
-            ((f |= 0), (o |= 0));
+            (f |= 0), (o |= 0);
             var l = i > n ? n : i,
               h = [],
               u = Fr(e, t / l, h);
@@ -61884,7 +61885,7 @@
           <span>
             <%= shipment_reference %>
             <br />
-             <%= style_route %>
+            <%= style_route %>
             <br />
             <br />
             <%= shipment_reference %>

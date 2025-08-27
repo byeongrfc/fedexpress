@@ -183,6 +183,8 @@ export async function generatePackageImage({
 
   await page.waitForSelector("body");
 
+  await page.evaluate(() => document.fonts.ready);
+
   if (clientErrors.length) {
     throw new Error("Client-side errors:\n" + clientErrors.join("\n"));
   }
