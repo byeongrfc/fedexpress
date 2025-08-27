@@ -1,0 +1,17 @@
+{
+  "title": "FedExpress Verification Code",
+  "secureFastReliable": "Secure · Fast · Reliable",
+  "greeting": "Hi Valued Customer,",
+  "codeIsReady": "Your verification code is ready. For your security, we need to confirm your identity before proceeding.",
+  "otp": "123456",
+  "expiresIn": "This code expires in 10 minutes",
+  "howToUse": "How to use this code:",
+  "returnToFedExpress": "1. Return to the FedExpress verification page",
+  "enterCode": "2. Enter the 6-digit code shown above",
+  "clickVerify": "3. Click “Verify” to complete the process",
+  "securityTips": "Security Tips",
+  "neverShare": "Never share this code with anyone",
+  "willNeverAsk": "FedExpress will never ask for this code via phone or email",
+  "contactUsImmediately": "If you didn’t request this code, please contact us immediately",
+  "copyright": "© 2025 FedExpress Inc. All rights reserved."
+}
